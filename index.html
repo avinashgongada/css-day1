@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: burlywood;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.card-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: grey;
+  width: 250px;
+  border-radius: 50px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 2cqmax;
+}
+
+.card-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card-content button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-content button:hover {
+  background-color: #0080b3f6;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 500);
+}
+@media (max-width: 7px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .card {
+    width: 2%;
+    margin-bottom: 2px;
+  }
+}
+
+    </style>
+</head>
+     
+<body>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg">
+        <div class="card-content">
+          <h3>ROHITH SHARMA</h3>
+          <p> INDIAN CRICKET PLAYER</p>
+          <p>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and One Day International (ODI) matches. Previously, he also captained the team in Twenty20 International (T20I) matches and led India's win in 2024 ICC Men's T20 World Cup, subsequent to which he retired from T20s in June 2024.</p>
+          <button>Read More</button>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="https://i0.wp.com/sportytell.com/wp-content/uploads/2018/11/Ronaldo-Champions-league-Manchester-United.jpg?zoom=1.25&w=680&ssl=1">
+        <div class="card-content">
+          <h3>CHRISTIANO RONOLDO</h3>
+          <p> PORTUGUESE FOOTBALL PLAYER</p>
+          <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM ( born 5 February 1985) is a Portuguese professional footballer who plays as a forward for and captains both the Saudi Pro League club Al Nassr and the Portugal national team.</p>
+          <button>Read More</button>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="https://pbs.twimg.com/profile_images/1753807835744419840/rVu25gns_400x400.jpg">
+        <div class="card-content">
+          <h3>VISWANADAN ANAND</h3>
+          <p> INDIAN CHESS PLAYER</p>
+          <p>Viswanathan "Vishy" Anand (born 11 December 1969) is an Indian chess grandmaster, a former five-time World Chess Champion[2] and a record two-time Chess World Cup Champion.[3] He became the first grandmaster from India in 1988, and he has the eighth-highest peak FIDE rating of all time.[4] In 2022, he was elected the deputy president of FIDE.</p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
